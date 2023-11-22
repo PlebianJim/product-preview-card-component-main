@@ -34,6 +34,8 @@ body {
 .left-container-img {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
+    width: 100%;
+    height: 100%;
 }
 
 .right-container {
