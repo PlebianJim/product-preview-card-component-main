@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.left-container-img {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 110%;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.right-container-h1-perfume {
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 6px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 100px;
+}
+
+.right-container-h1-perfume-name {
+    width: 55%;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.right-container-p {
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+}
+
+.price-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.price-left {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+}
+
+.price-right {
+    font-family: 'Fraunces', serif;
+    font-weight: 200;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.right-container-button {
+    padding: 5%;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 800;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+}
+
+.right-container-button:hover {
+    background-color: hsl(158, 36%, 17%);
+}
+
+.right-container-button-img {
+    margin-right: 20px;
+}
