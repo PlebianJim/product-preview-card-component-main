@@ -112,3 +112,59 @@ body {
 .right-container-button-img {
     margin-right: 20px;
 }
+
+@media (max-width: 700px) {
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 95vh;
+    }
+
+    .left-container {
+        height: 50vh;
+        width: 95vw;
+    }
+
+    .left-container-img {
+        height: 50vh;
+        width: 95vw;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+        object-fit: cover;
+    }
+
+    .right-container {
+        height: 50vh;
+        width: 95vw;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        align-items: flex-start;
+    }
+
+    .right-container-button {
+        width: 90vw;
+        align-self: center;
+    }
+
+    .right-container-h1-perfume {
+        margin-left: 5%;
+    }
+
+    .right-container-h1-perfume-name {
+        margin-left: 5%;
+    }
+
+    .right-container-p {
+        margin-left: 5%;
+    }
+
+    .price-container {
+        margin-left: 5%;
+    }
+}
